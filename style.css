@@ -147,3 +147,58 @@ body{
 .btn-primary:hover{
     background-color: #d35400;
 }
+/* flower-plant-section */
+.flower-plant-section{
+    max-width: 1140px;
+    width: 100%;
+    margin-top: 250px;
+}
+.flower-wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.flower{
+    position: relative;
+    flex: 1;
+    
+}
+.flower-img{
+    max-width: 540px;
+    height: 597px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.badge-icon{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 5px 3px rgba(0, 0, 0,0.6));
+}
+.trusted-badge{
+    position: absolute;
+    width: 286px;
+    height: 286px;
+    top: -122px;
+    right: -74px;
+    z-index: 10;
+    background: transparent;
+    
+}
+.flower-title{
+    font-family: "Noto Serif";
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #000000;
+    line-height: 1.1;
+    margin-bottom: 20px;
+
+}
+.discription-list li{
+    font-size: 1.375rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #8987A1;
+}
