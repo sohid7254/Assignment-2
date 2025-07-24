@@ -252,6 +252,8 @@ body{
 .off-section1{
     background-image: url(./assets/deal-bloom.png);
     background-repeat: no-repeat;
+    background-color: rgba(1, 1, 1, 0.5);
+    background-blend-mode: multiply;
     overflow: hidden;
     height: 197px;
     width: 100%;
@@ -262,6 +264,8 @@ body{
 .off-section2{
     background-image: url(./assets/deal-ana.png);
     background-repeat: no-repeat;
+    background-color: rgba(1, 1, 1, 0.5);
+    background-blend-mode: multiply;
     overflow: hidden;
     height: 197px;
     width: 100%;
@@ -272,6 +276,8 @@ body{
 .off-section3{
     background-image: url(./assets/deal-zabo.png);
     background-repeat: no-repeat;
+    background-color: rgba(1, 1, 1, 0.5);
+    background-blend-mode: multiply;
     overflow: hidden;
     height: auto;
     color: #FFFFFF;
@@ -286,4 +292,22 @@ body{
     font-size: 1.125rem;
     font-weight: bold;
     margin-bottom: 0;
+    
 }
+.count p{
+    margin-top: 10px;
+    font-family: "Inter";
+    font-size: 500;
+}
+.zabo-plant h2{
+    font-family: "Noto Serif";
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.zabo-plant p{
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-top: 0;
+}
+/*  */
