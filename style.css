@@ -202,3 +202,88 @@ body{
     margin-bottom: 20px;
     color: #8987A1;
 }
+/* deal section */
+.leatest-deal{
+    text-align: center;
+    margin-top: 80px;
+}
+.leatest-deal h1{
+    font-family: "Noto Serif";
+    font-size: 3.125rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.leatest-deal p{
+    font-family: "Inter";
+    font-size: 1.375rem;
+    font-weight: 400;
+}
+/* discount section */
+.discount-section{
+    max-width: 1140px;
+    margin-top: 120px;
+    pad: 0;
+}
+.off{
+    display: flex;
+    gap: 20px;
+    
+}
+.card-left{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 367px;
+    height: 423px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.card-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    width: 753px;
+}
+.off-section1{
+    background-image: url(./assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 197px;
+    width: 100%;
+    color: #FFFFFF;
+    border-radius: 14px;
+    object-fit: cover;
+}
+.off-section2{
+    background-image: url(./assets/deal-ana.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 197px;
+    width: 100%;
+    color: #FFFFFF;
+    border-radius: 14px;
+    object-fit: cover;
+}
+.off-section3{
+    background-image: url(./assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: auto;
+    color: #FFFFFF;
+    border-radius: 14px;
+    object-fit: cover;
+}
+.count{
+    padding: 65px 48px;
+}
+.count h2{
+    font-family: "Noto Serif";
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
