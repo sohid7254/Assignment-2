@@ -469,7 +469,25 @@
     .leatest-deal p {
         font-size: 0.875rem;
     }
-
+    .flower-title {
+        font-size: 24px;
+    }
+    .plant-container p br {
+        display: none;
+    }
+    .text-column h1 br {
+        display: none;
+    }
+    .text-column {
+        margin-top: 18px;
+    }
+    .leatest-deal h1 {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+    .leatest-deal p br {
+        display: none;
+    }
     .plant-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -479,7 +497,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 60px;
+        gap: 20px;
         flex-direction: column;
     }
     .count h2 {
@@ -490,6 +508,9 @@
     }
     .trusted-badge {
         display: none;
+    }
+    .discription-list li {
+        font-size: 14px;
     }
     .flower-img {
         height: unset;
@@ -503,6 +524,9 @@
         margin-top: 40px;
     }
     /* optional-section */
+    .flowersec {
+        margin-top: 51px;
+    }
     .flowermain {
         gap: 20px;
         flex-direction: column;
