@@ -179,6 +179,12 @@
     height: 100%;
     object-fit: contain;
     filter: drop-shadow(0 5px 3px rgba(0, 0, 0, 0.6));
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
 }
 .trusted-badge {
     position: absolute;
@@ -487,9 +493,10 @@
     }
     .flower-img {
         height: unset;
-        width: 100%;
+        width: 90%;
         display: block;
         object-fit: cover;
+        margin: 0 auto;
     }
 
     .flower-plant-section {
