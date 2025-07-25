@@ -219,95 +219,74 @@
     font-size: 1.375rem;
     font-weight: 400;
 }
-/* discount section */
-.discount-section {
+/* optional-section*/
+.flowersec {
     max-width: 1140px;
+    margin: 0 auto;
     margin-top: 120px;
-    pad: 0;
 }
-.off {
-    display: flex;
-    gap: 20px;
-}
-.card-left {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    width: 367px;
-    height: 423px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.card-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 
-    width: 753px;
+.flowermain {
+    display: flex;
+    gap: 26px;
+    align-items: stretch;
 }
-.off-section1 {
-    background-image: url(./assets/deal-bloom.png);
-    background-repeat: no-repeat;
-    background-color: rgba(1, 1, 1, 0.5);
-    background-blend-mode: multiply;
-    overflow: hidden;
-    height: 197px;
+
+.flower1 {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.flower2 {
+    flex: 1;
+}
+
+.floweritem {
+    border-radius: 14px;
+    position: relative;
+    height: 100%;
+}
+
+.floweritem img {
     width: 100%;
-    color: #ffffff;
     border-radius: 14px;
+    height: 100%;
     object-fit: cover;
+    filter: brightness(0.6);
 }
-.off-section2 {
-    background-image: url(./assets/deal-ana.png);
-    background-repeat: no-repeat;
-    background-color: rgba(1, 1, 1, 0.5);
-    background-blend-mode: multiply;
-    overflow: hidden;
-    height: 197px;
+
+.flowertext {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: 100%;
-    color: #ffffff;
-    border-radius: 14px;
-    object-fit: cover;
 }
-.off-section3 {
-    background-image: url(./assets/deal-zabo.png);
-    background-repeat: no-repeat;
-    background-color: rgba(1, 1, 1, 0.5);
-    background-blend-mode: multiply;
-    overflow: hidden;
-    height: auto;
-    color: #ffffff;
-    border-radius: 14px;
-    object-fit: cover;
+
+.flowertext h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 8px;
 }
-.count {
-    padding: 65px 48px;
+
+.flowertext a {
+    font-size: 16px;
+    color: white;
 }
-.count h2 {
+
+.flowertext2 h3 {
     font-family: "Noto Serif";
-    font-size: 1.125rem;
-    font-weight: bold;
-    margin-bottom: 0;
+    font-size: 40px;
 }
-.count p {
-    margin-top: 10px;
-    font-family: "Inter";
-    font-size: 500;
+
+.flowertext2 a {
+    font-size: 28px;
 }
-.zabo-plant h2 {
-    font-family: "Noto Serif";
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 0;
-}
-.zabo-plant p {
-    font-size: 1.75rem;
-    font-weight: 500;
-    margin-top: 0;
-}
+
 /* join-section */
 
 .join-section {
@@ -507,7 +486,6 @@
         display: none;
     }
     .flower-img {
-        max-width: 100%;
         height: unset;
         width: 100%;
         display: block;
@@ -517,25 +495,24 @@
     .flower-plant-section {
         margin-top: 40px;
     }
-    .discount-section {
-        margin-top: 50px;
-    }
-    .off {
-        display: flex;
+    /* optional-section */
+    .flowermain {
         gap: 20px;
         flex-direction: column;
-        width: auto;
         margin: 0 16px;
     }
 
-    .card-left {
+    .flower1 {
         width: 100%;
+        gap: 20px;
     }
 
-    .off-section3 {
-        border-radius: 14px;
-        width: 100%;
-        object-fit: cover;
+    .flowertext h3 {
+        font-size: 20px;
+    }
+
+    .flowertext a {
+        font-size: 16px;
     }
     .join-content h1 {
         font-family: "Noto Serif";
