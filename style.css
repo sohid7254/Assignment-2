@@ -371,7 +371,7 @@
     max-width: 1120px;
     height: 248px;
     margin: auto;
-    padding: 50px 110px;
+    margin-top: 30px;
     position: relative;
 }
 .footer-logo {
@@ -421,7 +421,7 @@
     justify-content: space-between;
     position: absolute;
     margin-top: -210px;
-    right: 110px;
+    right: 0px;
 }
 .footer-social img {
     width: 36px;
@@ -478,7 +478,13 @@
         font-size: 1rem;
         margin-bottom: 30px;
     }
-    /*  */
+    .leatest-deal {
+        margin-top: 50px;
+    }
+    .leatest-deal p {
+        font-size: 0.875rem;
+    }
+
     .plant-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -510,6 +516,9 @@
 
     .flower-plant-section {
         margin-top: 40px;
+    }
+    .discount-section {
+        margin-top: 50px;
     }
     .off {
         display: flex;
